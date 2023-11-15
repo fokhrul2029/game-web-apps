@@ -1,0 +1,141 @@
+/* ===================== Hero CSS ====================  */
+.hero-section {
+  padding-top: 190px;
+  background: linear-gradient(180deg, #050301 -34.57%, #150c01 96.75%);
+}
+.hero-section .title span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 208.5%; /* 33.36px */
+}
+.hero-section .title span:nth-child(2) {
+  color: #e47500;
+}
+.hero-section h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180.5%; /* 59.565px */
+}
+.hero-section p {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 187.5%; /* 30px */
+}
+.hero-section form {
+  max-width: 400px;
+  margin: auto;
+  position: relative;
+}
+.hero-section form input {
+  width: 100%;
+  border-radius: 10px;
+  background: #1c140f;
+  border: none;
+  outline: none;
+  padding: 10px 8px 10px 60px;
+  color: rgba(255, 255, 255, 0.87);
+}
+.hero-section form i {
+  position: absolute;
+  top: 55%;
+  left: 25px;
+  color: #fff;
+  transform: translateY(-50%);
+}
+/* =================== News CSS ===================  */
+.new-section {
+  padding-top: 100px;
+  background: linear-gradient(360deg, #050301 -34.57%, #150c01 96.75%);
+}
+/* Top News  */
+.new-section .top-news img {
+  border-radius: 20px;
+}
+.new-section .top-news .button {
+  padding: 20px 0 0 0;
+}
+.new-section .top-news button {
+  color: #fffcfc;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%; /* 30px */
+  padding: 9px 24px 9px 32px;
+  background: #2351f5;
+  border: 1px solid transparent;
+  outline: none;
+  margin-right: 19px;
+}
+.new-section .top-news span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%; /* 30px */
+}
+.new-section .top-news h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 20px;
+}
+.new-section .top-news p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 207.8%; /* 35.326px */
+  padding: 16px 0;
+}
+/* News List  */
+.news-list .news {
+  padding-bottom: 60px;
+}
+.news-list img {
+  border-radius: 20px;
+}
+.news-list .button button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%; /* 26.25px */
+  background: #ff8484;
+  padding: 7px 24px;
+  margin-right: 15px;
+}
+.news-list .button span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%; /* 26.25px */
+}
+.news-list h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+}

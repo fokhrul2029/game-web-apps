@@ -1,0 +1,165 @@
+/* =================== Hero CSS ====================  */
+.hero-section {
+  padding: 186px 0 145px 0;
+  background: linear-gradient(176deg, #090501 -26.24%, #120a01 96.98%);
+}
+.hero-section .title span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 208.5%; /* 33.36px */
+}
+.hero-section .title span:nth-child(2) {
+  color: #e47500;
+}
+.hero-section h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180.5%; /* 59.565px */
+  padding-top: 15px;
+  padding-bottom: 13px;
+}
+.hero-section p {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 187.5%; /* 30px */
+}
+.hero-section .map-img {
+  padding: 90px 0 60px 0;
+}
+.hero-section .row span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 189.5%; /* 30.32px */
+  padding-bottom: 18px;
+  display: block;
+}
+.hero-section .icons i {
+  color: white;
+  padding: 10px 13px;
+  background-color: #1c140f;
+  margin-right: 15px;
+  border-radius: 100%;
+}
+.hero-section .call-info i {
+  font-size: 30px;
+  margin-right: 25px;
+  color: white;
+}
+.hero-section .call-info a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.hero-section .location {
+  display: flex;
+  gap: 20px;
+}
+.hero-section .location i {
+  font-size: 30px;
+  color: white;
+}
+.hero-section .location span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+/* ======================= Contact CSS ======================  */
+.contact-section {
+  padding: 54px 0 60px 0;
+  background: #1c140f;
+  position: relative;
+}
+.contact-section .container {
+  z-index: 99999;
+}
+.contact-section h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 189.5%; /* 56.85px */
+  text-align: center;
+}
+.contact-section p {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 189.5%; /* 24.635px */
+  padding-bottom: 70px;
+}
+.contact-section form div {
+  width: 49%;
+  display: inline-block;
+}
+
+.contact-section label {
+  padding-top: 15px;
+  color: #4f4f4f;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175.4%; /* 24.556px */
+  letter-spacing: -0.3px;
+  display: block;
+}
+.contact-section input {
+  border-radius: 9px;
+  border: 0.6px solid #cecece;
+  background: rgba(255, 255, 255, 0.07);
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border: transparent;
+  padding: 10px 10px;
+  color: rgba(255, 255, 255, 0.801);
+}
+.contact-section textarea {
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.07);
+  width: 100%;
+  height: 230px;
+  outline: none;
+  border: transparent;
+  color: rgba(255, 255, 255, 0.801);
+  padding: 10px;
+  z-index: 9999;
+}
+.contact-section input[type="submit"] {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 204.3%; /* 32.688px */
+  border-radius: 10px;
+  background: #dc7000;
+  padding: 10px 45px;
+  width: auto;
+  float: right;
+  margin-top: 50px;
+}
