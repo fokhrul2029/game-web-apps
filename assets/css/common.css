@@ -1,0 +1,270 @@
+/* This css File is Recomanded for all of file and i used those classes which are available for all of the files   */
+/* 
+  // Imported Google font
+  // font-family: 'Poppins', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+/* Replesment CSS  */
+body {
+  scroll-behavior: smooth;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+/* =============== Header Section or Navbar =================== */
+.header-section .logo {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 153.5%; /* 44.515px */
+}
+.header-section ul {
+  gap: 6px;
+}
+.header-section ul li a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .header-section ul li a.active::before {
+    content: " ";
+    width: 44px;
+    height: 4px;
+    position: absolute;
+    background-image: url(./../img/bottom\ of\ nav.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.header-section ul li a:hover {
+  color: #fff;
+}
+.header-section .contact-btn {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 6px;
+  background: #fa9021;
+  padding: 10px 27px !important;
+}
+.active {
+  color: white !important;
+}
+
+/* ================== Footer CSS ================== */
+.footer-section .newsletter-content {
+  padding: 127px 0 144px 0;
+  background: linear-gradient(177deg, #050301 -30.15%, #120a01 92.85%);
+}
+.footer-section .newsletter-content h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 187.5%; /* 56.25px */
+}
+.footer-section .head-content {
+  padding-bottom: 70px;
+}
+.footer-section .head-content p {
+  max-width: 545px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%; /* 30px */
+}
+.footer-section .newsletter {
+  padding: 40px 50px;
+  border-radius: 15px;
+  background: #1c140f;
+}
+.footer-section .newsletter p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-section form {
+  max-width: 385.68px;
+  position: relative;
+}
+.footer-section form input[type="email"] {
+  width: 100%;
+  color: #898989;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 14px 20px;
+  border-radius: 8px;
+  background: #fff;
+  outline: none;
+  border: 1px solid transparent;
+}
+.footer-section form input[type="submit"] {
+  position: absolute;
+  top: 50%;
+  right: 6px;
+  transform: translateY(-50%);
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  background: #dc7000;
+  padding: 8px 13px 9px 22px;
+  outline: none;
+  border: 1px solid transparent;
+}
+.footer-section hr {
+  margin-bottom: 0;
+}
+/* Main Footer CSS  */
+.main-footer {
+  background: #070707;
+  padding: 70px 0 0 0;
+}
+
+.main-footer h1 a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 153.5%; /* 36.84px */
+}
+.main-footer p {
+  max-width: 372px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-footer span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 25px;
+  display: inline-block;
+}
+.main-footer h2 a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.main-footer ul {
+  list-style: none;
+  padding: 0;
+}
+.main-footer ul li a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 186.3%; /* 29.808px */
+}
+.main-footer a.telephone {
+  color: #fff;
+  display: inline-block;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 11px;
+}
+.main-footer .icons a {
+  border: 1px solid transparent;
+  margin: 0 8px;
+  padding: 7px 9px;
+  border-radius: 100%;
+  background: white;
+  text-align: center;
+}
+.main-footer .icons i {
+  color: black;
+  font-size: 17px;
+}
+.main-footer .bottom-content p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190.6%; /* 24.778px */
+  padding: 29px 0;
+  margin: 0;
+  max-width: 100%;
+}
+.main-footer .container {
+  padding-bottom: 30px;
+}
+.main-footer a:hover {
+  color: #ffffffde;
+}
+.main-footer .bottom-content a {
+  color: #fa9021;
+}
+.main-footer .bottom-content a:hover {
+  color: #dc7000;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header-section ul {
+    gap: 48px;
+  }
+} /* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header-section ul {
+    gap: 88px;
+  }
+} /* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
