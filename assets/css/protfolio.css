@@ -136,3 +136,103 @@
   margin-top: 45px;
   margin-bottom: 35px;
 }
+/* ============= customer-section CSS Start ============== */
+.customer-section {
+  padding-top: 50px;
+}
+.customer-section h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px; /* 142.857% */
+  padding-bottom: 20px;
+}
+.customer-section p {
+  max-width: 550px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+.customer-section .customar-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 60px;
+  padding-bottom: 70px;
+}
+@media (max-width: 992px) {
+  .customer-section .customar-row {
+    flex-direction: column;
+  }
+}
+.customer-section .customar-col {
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  background: #1c140f;
+  padding: 30px 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.customer-section .customar-col:hover {
+  border: 2px solid #f53838;
+}
+.customer-section .customer-wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customer-section .customer-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.customer-section .customer-info h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+.customer-section .customer-info span {
+  color: #4f5665;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
+}
+.customer-section .review {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  margin-right: 10px;
+}
+.customer-section .customar-col p {
+  margin-top: 20px;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  text-align: left;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 4; /* Number of lines to show */
+  line-clamp: 4;
+}
