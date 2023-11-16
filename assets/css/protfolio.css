@@ -1,0 +1,138 @@
+/* ================= Hero CSS ===============  */
+.hero-section {
+  padding: 190px 0 130px 0;
+}
+.hero-section .title span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 208.5%; /* 33.36px */
+}
+.hero-section .title span:nth-child(2) {
+  color: #e47500;
+}
+.hero-section h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180.5%; /* 59.565px */
+  padding: 14px 0;
+}
+.hero-section p {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 187.5%; /* 30px */
+}
+.hero-section .block {
+  border-radius: 10px;
+  background: #1c140f;
+  margin-top: 45px;
+  padding: 35px 0;
+}
+.hero-section i {
+  color: #dc7000;
+  border-radius: 70px;
+  background: #ffecec;
+  padding: 10px 14px;
+  margin-right: 12px;
+}
+.hero-section strong {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 120% */
+}
+.hero-section span {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+/* ================= Video CSS =====================  */
+
+.video-section {
+  padding-bottom: 90px;
+}
+
+.video-section .video-info {
+  padding: 0 50px;
+}
+.video-section h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180.5%; /* 54.15px */
+}
+.video-section p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%; /* 26.25px */
+  margin-top: 12px;
+}
+.video-section i {
+  color: #2fab73;
+}
+.video-section span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%; /* 26.25px */
+  margin-top: 19px;
+  margin-left: 10px;
+}
+/* ================== Protfolio CSS ==================== */
+.protfolio-section {
+  padding-bottom: 70px;
+}
+.protfolio-section .row {
+  padding: 90px 0;
+}
+.protfolio-section h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 40px;
+}
+.protfolio-section p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.protfolio-section button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #dc7000;
+  padding: 13px 45px;
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
