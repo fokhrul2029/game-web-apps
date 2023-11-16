@@ -58,6 +58,7 @@ img {
   font-weight: 400;
   line-height: normal;
   position: relative;
+  text-align: center;
 }
 @media (min-width: 992px) {
   .header-section ul li a.active::before {
@@ -73,6 +74,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
   }
+  
 }
 .header-section ul li a:hover {
   color: #fff;

@@ -88,6 +88,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: 187.5%; /* 26.25px */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 4; /* Number of lines to show */
+  line-clamp: 4;
 }
 /* ===================== About CSS ===================  */
 .about-section {
@@ -112,7 +117,7 @@
 .about-section h1 {
   color: #fff;
   font-family: Poppins;
-  font-size: 28px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 600;
   line-height: 157.5%; /* 44.1px */
@@ -125,6 +130,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: 202.5%; /* 32.4px */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 5; /* Number of lines to show */
+  line-clamp: 5;
 }
 /* ========================= team-section ======================  */
 .team-section {
@@ -139,13 +149,14 @@
   font-style: normal;
   font-weight: 600;
   line-height: 180.5%; /* 45.125px */
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .team-section .card {
   border-radius: 20px;
   background: #1c140f;
   padding: 35px 0 30px 0;
   text-align: center;
+  margin-top: 20px ;
 }
 .team-section .card img {
   max-width: 123px;
@@ -167,3 +178,10 @@
   font-weight: 300;
   line-height: 202.5%; /* 32.4px */
 }
+
+/* ===================== Responsive CSS =================== */
+@media (min-width: 992px) { 
+  .about-section h1 {
+    font-size: 28px ;
+  }
+ }

@@ -113,7 +113,7 @@
   color: #fff;
   text-align: center;
   font-family: Poppins;
-  font-size: 35px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 187.5%; /* 65.625px */
@@ -152,7 +152,7 @@
   color: #fff;
   text-align: center;
   font-family: Poppins;
-  font-size: 30px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 187.5%; /* 56.25px */
@@ -240,7 +240,45 @@
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.11);
   padding: 10px 30px;
-  border: none ;
-  outline: none ;
-  margin-top: 70px ;
+  border: none;
+  outline: none;
+  margin-top: 70px;
+}
+
+/* ==================== Responsive CSS ================= */
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .news-section h1 {
+    font-size: 20px;
+  }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hero-section h1 {
+    font-size: 40px;
+  }
+} /* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .news-section h1 {
+    font-size: 30px;
+  }
+  .services-section h1 {
+    font-size: 35px;
+  }
+} /* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hero-section h1 {
+    font-size: 40px;
+  }
+  .news-section h1 {
+    font-size: 35px;
+  }
+}
+@media (min-width: 1400px) {
+  .hero-section h1 {
+    font-size: 50px;
+  }
 }
