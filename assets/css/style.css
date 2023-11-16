@@ -1,0 +1,200 @@
+/* ================= Hero CSS =================  */
+.hero-section {
+  padding-bottom: 130px;
+}
+.hero-section .title {
+  color: #e87d0e;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.2%; /* 31.04px */
+}
+.hero-section h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.2%; /* 77.6px */
+}
+.hero-section p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 200%; /* 32px */
+  padding-bottom: 50px;
+}
+.hero-section button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 40px;
+  background: linear-gradient(92deg, #fa8305 2.08%, #fb9e3c 117.25%);
+  padding: 14px 30px;
+  margin-bottom: 20px;
+}
+.hero-section .img {
+  width: 100%;
+  overflow: hidden;
+}
+.hero-section .img img {
+  width: 100%;
+  margin-left: 100px;
+}
+/* =================== Current-game CSS =================  */
+.current-games {
+  padding-bottom: 60px;
+}
+.current-games .head-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.current-games h2 {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 187.5%; /* 58.125px */
+}
+.current-games a {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 187.5%; /* 37.5px */
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.11);
+  padding: 10px 30px;
+}
+.current-games .card {
+  background-color: transparent;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.current-games .card img {
+  border-radius: 20px;
+}
+.current-games .title {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}
+.current-games .title i {
+  color: white;
+  font-size: 25px;
+}
+.current-games .title span {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 187.5%; /* 41.25px */
+}
+/* ================ News CSS ==================  */
+.news-section {
+  padding-top: 60px;
+  padding-bottom: 155px;
+  background: linear-gradient(181deg, #000 0.82%, #4a28007a 129.1%);
+  backdrop-filter: blur(7px);
+}
+.news-section h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 187.5%; /* 65.625px */
+}
+.news-section h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 187.5%; /* 56.25px */
+  padding: 60px 0 30px 0;
+}
+.news-section p {
+  max-width: 545px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%; /* 30px */
+  padding-bottom: 45px;
+}
+.news-section .img {
+  width: 100%;
+}
+/* =============== Services CSS ===============  */
+.services-section {
+  background-image: url(./../img/background\ img\ D.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 90px 0;
+}
+.services-section h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 187.5%; /* 56.25px */
+  max-width: 826px;
+  margin: auto;
+  padding-bottom: 24px ;
+}
+.services-section p {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%; /* 30px */
+  max-width: 820px;
+  margin: auto;
+  padding-bottom: 30px ;
+}
+.services-section .serv-card {
+  background-color: transparent;
+  text-align: center;
+  border: none;
+  padding-top: 60px ;
+}
+.services-section .serv-card i:nth-child(1) {
+  color: #dc7000;
+  border-radius: 100%;
+  background-color: white;
+  padding: 15px 17px;
+  display: inline-block;
+}
+.services-section .serv-card span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 187.5%; /* 30px */
+  display: block;
+  margin: 22px 0 19px 0;
+}
+.services-section .serv-card i:nth-child(3) {
+  color: #dc7000;
+  font-size: 35px ;
+  cursor: pointer;
+}
