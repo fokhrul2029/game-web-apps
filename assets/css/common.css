@@ -25,6 +25,27 @@ img {
   font-weight: 800;
   line-height: 153.5%; /* 44.515px */
 }
+.header-section button {
+  border: 2px solid transparent;
+  transition: 0.2s ease;
+  outline: none;
+  background-color: #fa9021;
+}
+.header-section button:hover {
+  background-color: transparent;
+  border: 2px solid #fa9021;
+}
+.header-section button:hover i {
+  color: #fa9021;
+}
+.header-section button i {
+  color: white;
+  font-size: 31px;
+}
+.header-section button:focus {
+  box-shadow: 0 0 0;
+  outline: none;
+}
 .header-section ul {
   gap: 6px;
 }
