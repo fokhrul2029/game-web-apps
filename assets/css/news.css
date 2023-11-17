@@ -77,6 +77,12 @@
   border: 1px solid transparent;
   outline: none;
   margin-right: 19px;
+  transition: 0.2s ease;
+}
+.new-section .top-news button:hover {
+  background-color: transparent;
+  color: #2351f5;
+  border: 1px solid #2351f5;
 }
 .new-section .top-news span {
   color: #fff;
@@ -121,6 +127,14 @@
   background: #ff8484;
   padding: 7px 24px;
   margin-right: 15px;
+  outline: none;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+.news-list .button button:hover {
+  color: #ff8484;
+  background-color: transparent;
+  border: 1px solid #ff8484;
 }
 .news-list .button span {
   color: #fff;
@@ -138,4 +152,41 @@
   font-weight: 600;
   line-height: normal;
   margin-top: 20px;
+}
+/* Button List for News-portal  */
+/* Blue Button  */
+.blue-btn {
+  background: #2351f5 !important ;
+}
+.blue-btn:hover {
+  color: #2351f5 !important;
+  border: 1px solid  #2351f5 !important ;
+  background-color: transparent !important
+}
+/* yallow Button */
+.yallow-btn {
+  background: #FF7C32 !important ;
+}
+.yallow-btn:hover {
+  color: #FF7C32 !important;
+  border: 1px solid  #FF7C32 !important ;
+  background-color: transparent !important
+}
+/* green Button */
+.green-btn {
+  background: #23A54F !important ;
+}
+.green-btn:hover {
+  color: #23A54F !important;
+  border: 1px solid  #23A54F !important ;
+  background-color: transparent !important
+}
+/* orange Button */
+.orange-btn {
+  background: #9921C3 !important ;
+}
+.orange-btn:hover {
+  color: #9921C3 !important;
+  border: 1px solid  #9921C3 !important ;
+  background-color: transparent !important
 }
