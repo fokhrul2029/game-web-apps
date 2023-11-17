@@ -38,6 +38,13 @@
   background: linear-gradient(92deg, #fa8305 2.08%, #fb9e3c 117.25%);
   padding: 14px 30px;
   margin-bottom: 20px;
+  transition: 0.2s ease;
+  border: 1px solid transparent;
+}
+.hero-section button:hover {
+  border: 1px solid #fa8305;
+  background: transparent;
+  color: #fa8305;
 }
 .hero-section .img {
   width: 100%;
@@ -74,6 +81,12 @@
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.11);
   padding: 10px 30px;
+  border: 1px solid transparent;
+}
+.current-games a:hover {
+  color: #fa8305;
+  border: 1px solid #fa8305;
+  background-color: transparent;
 }
 .current-games .card {
   background-color: transparent;
@@ -184,6 +197,13 @@
   background-color: white;
   padding: 15px 17px;
   display: inline-block;
+  border: 1px solid transparent;
+  transition: .2s ease ;
+  cursor: pointer;
+}
+.services-section .serv-card:hover i:nth-child(1) {
+  border: 1px solid #dc7000;
+  background-color: transparent;
 }
 .services-section .serv-card span {
   color: #fff;
@@ -199,6 +219,10 @@
   color: #dc7000;
   font-size: 35px;
   cursor: pointer;
+  transition: .2s ease;
+}
+.services-section .serv-card i:nth-child(3):hover {
+ color: #643400;
 }
 /* ================ Project Section ===================  */
 .project-section {
@@ -240,9 +264,15 @@
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.11);
   padding: 10px 30px;
-  border: none;
+  border: 1px solid transparent;
   outline: none;
   margin-top: 70px;
+  transition: 0.2s ease;
+}
+.project-section button:hover {
+  color: #fa8305;
+  border: 1px solid #fa8305;
+  background-color: transparent;
 }
 
 /* ==================== Responsive CSS ================= */
