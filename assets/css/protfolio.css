@@ -135,6 +135,14 @@
   padding: 13px 45px;
   margin-top: 45px;
   margin-bottom: 35px;
+  border: 2px solid transparent;
+  outline: none  ;
+  transition: .2s ease ;
+}
+.protfolio-section button:hover {
+  background-color: transparent;
+  color: #dc7000;
+  border: 2px solid #dc7000;
 }
 /* ============= customer-section CSS Start ============== */
 .customer-section {
