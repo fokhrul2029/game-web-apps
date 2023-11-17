@@ -89,6 +89,13 @@ img {
   border-radius: 6px;
   background: #fa9021;
   padding: 10px 27px !important;
+  border: 1px solid transparent;
+  transition: .2s ease ;
+}
+.header-section .contact-btn:hover {
+  background-color: transparent;
+  border: 1px solid #fa9021 ;
+  color: #fa9021;
 }
 .active {
   color: white !important;
@@ -150,6 +157,10 @@ img {
   outline: none;
   border: 1px solid transparent;
 }
+.footer-section form input[type="email"]:focus {
+  background-color: transparent ;
+  border: 1px solid rgba(255, 255, 255, 0.39) ;
+}
 .footer-section form input[type="submit"] {
   position: absolute;
   top: 50%;
@@ -164,9 +175,15 @@ img {
   line-height: normal;
   border-radius: 8px;
   background: #dc7000;
-  padding: 8px 13px 9px 22px;
+  padding: 7px 13px 9px 22px;
   outline: none;
   border: 1px solid transparent;
+  transition: .2s ease ;
+}
+.footer-section form input[type="submit"]:hover {
+  border: 1px solid #fa9021;
+  background-color: transparent;
+  color: #fa9021;
 }
 .footer-section hr {
   margin-bottom: 0;
@@ -241,10 +258,19 @@ img {
   border-radius: 100%;
   background: white;
   text-align: center;
+  transition: .2s ease ;
 }
 .main-footer .icons i {
   color: black;
   font-size: 17px;
+  transition: .2s ease;
+}
+.main-footer .icons a:hover {
+  background-color: transparent;
+  border: 1px solid #fa9021;
+}
+.main-footer .icons a:hover i {
+  color: #fa9021 ;
 }
 .main-footer .bottom-content p {
   color: #fff;
