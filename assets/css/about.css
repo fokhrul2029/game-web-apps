@@ -40,6 +40,13 @@
   border-radius: 40px;
   background: linear-gradient(92deg, #fa8305 2.08%, #fb9e3c 117.25%);
   padding: 10px 20px;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+.hero-section button:hover {
+  background: transparent;
+  color: #fa8305;
+  border: 1px solid #fa8305;
 }
 /* ================ Services CSS ====================  */
 .service-section {
@@ -59,6 +66,11 @@
   background: #1c140f;
   box-shadow: 0px 4px 94px 0px rgba(0, 0, 0, 0.15);
   margin-top: 64px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.service-section .card:hover {
+  transform: scale(1.03);
 }
 .service-section span {
   color: #fff;
@@ -71,6 +83,11 @@
   background: rgba(176, 0, 220, 0.11);
   padding: 7px 35px 6px 14px;
   display: inline-block;
+  border: 1px solid transparent;
+}
+.service-section span:hover {
+  background: transparent;
+  border: 1px solid white ;
 }
 .service-section h3 {
   color: #fff;
@@ -156,7 +173,7 @@
   background: #1c140f;
   padding: 35px 0 30px 0;
   text-align: center;
-  margin-top: 20px ;
+  margin-top: 20px;
 }
 .team-section .card img {
   max-width: 123px;
@@ -180,8 +197,8 @@
 }
 
 /* ===================== Responsive CSS =================== */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   .about-section h1 {
-    font-size: 28px ;
+    font-size: 28px;
   }
- }
+}
